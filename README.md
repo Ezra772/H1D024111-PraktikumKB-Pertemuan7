@@ -1,11 +1,11 @@
-# 🌸 Klasifikasi Iris dengan Jaringan Saraf Tiruan (JST)
+# Klasifikasi Iris dengan Jaringan Saraf Tiruan (JST)
 
 > **Praktikum Kecerdasan Buatan — Pertemuan 7**  
 > Implementasi Neural Network menggunakan TensorFlow & Keras untuk klasifikasi dataset Iris
 
 ---
 
-## 📋 Deskripsi
+## Deskripsi
 
 Program ini mengimplementasikan **Jaringan Saraf Tiruan (JST)** atau *Artificial Neural Network (ANN)* untuk mengklasifikasikan spesies bunga Iris menggunakan dataset UCI Iris. Model dibangun dengan arsitektur *fully connected (dense)* menggunakan framework TensorFlow/Keras.
 
@@ -18,7 +18,7 @@ Dataset Iris terdiri dari **150 sampel** dengan **4 fitur input** dan **3 kelas 
 
 ---
 
-## 🗂️ Struktur File
+## Struktur File
 
 ```
 pertemuan 7/
@@ -28,7 +28,7 @@ pertemuan 7/
 
 ---
 
-## ⚙️ Arsitektur Model
+## Arsitektur Model
 
 Model menggunakan arsitektur **Sequential** dengan lapisan-lapisan berikut:
 
@@ -50,7 +50,7 @@ Output Layer    → 3 neuron, aktivasi Softmax (3 kelas Iris)
 
 ---
 
-## 📦 Dependensi
+##  Dependensi
 
 Pastikan semua library berikut sudah terinstal:
 
@@ -70,7 +70,7 @@ pip install tensorflow pandas numpy matplotlib seaborn scikit-learn
 
 ---
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 
 1. **Clone / pastikan file tersedia** di direktori yang sesuai.
 
@@ -85,11 +85,11 @@ pip install tensorflow pandas numpy matplotlib seaborn scikit-learn
    - Menampilkan grafik *training & validation accuracy/loss*
    - Menampilkan *confusion matrix*
 
-> ⚠️ **Catatan:** Program membutuhkan koneksi internet untuk mengunduh dataset dari `archive.ics.uci.edu`.
+> **Catatan:** Program membutuhkan koneksi internet untuk mengunduh dataset dari `archive.ics.uci.edu`.
 
 ---
 
-## 📊 Alur Program
+## Alur Program
 
 ```
 1. Load Dataset Iris (dari URL UCI)
@@ -120,7 +120,7 @@ pip install tensorflow pandas numpy matplotlib seaborn scikit-learn
 
 ---
 
-## 📈 Output yang Dihasilkan
+## Output yang Dihasilkan
 
 - **Terminal:** Nilai `Loss` dan `Accuracy` pada data testing
 - **Plot 1:** Grafik akurasi dan loss selama training
@@ -128,7 +128,7 @@ pip install tensorflow pandas numpy matplotlib seaborn scikit-learn
 
 ---
 
-## 🔍 Fungsi Prediksi Manual
+## Fungsi Prediksi Manual
 
 Setelah model selesai dilatih, terdapat fungsi `predict_new_data()` yang memungkinkan user memasukkan data bunga Iris secara manual:
 
@@ -143,12 +143,3 @@ Masukkan petal width : 0.2
 
 ---
 
-## 👤 Informasi Praktikum
-
-| Keterangan | Detail |
-|------------|--------|
-| Mata Kuliah | Kecerdasan Buatan |
-| Pertemuan | 7 |
-| Topik | Jaringan Saraf Tiruan (JST) |
-| Dataset | UCI Iris Dataset |
-| Framework | TensorFlow / Keras |
